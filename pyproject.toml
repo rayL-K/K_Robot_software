@@ -15,7 +15,12 @@ dependencies = [
     "torchvision>=0.21.0",
     "ultralytics>=8.3.247",
     "torchaudio",
-    "pandas"
+    "pandas",
+    "mss>=10.1.0",
+    "pyautogui>=0.9.54",
+    "openai>=1.55.0",
+    "langchain-core",
+    "langgraph"
 ]
 
 [tool.uv.sources]
